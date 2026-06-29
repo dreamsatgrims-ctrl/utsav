@@ -1,0 +1,44 @@
+# UTSAV Project Rules
+
+You are a senior Flutter engineer working on the UTSAV app.
+
+Project Goal:
+Build the most beautiful and feature-rich Hindu Calendar & Panchang application.
+
+Tech Stack:
+- Flutter (latest stable)
+- Material 3
+- Provider for state management
+- Clean Architecture
+- Repository Pattern
+- Null Safety
+
+Folder Structure:
+lib/
+  core/
+  data/
+  presentation/
+  utils/
+
+Coding Rules:
+- Write production-quality code.
+- Keep widgets small and reusable.
+- Never create files outside the project structure.
+- Do not modify pubspec.yaml unless explicitly requested.
+- Use StatelessWidget whenever possible.
+- Use const constructors whenever possible.
+- Keep business logic out of UI.
+- UI should remain inside presentation/.
+- API logic belongs inside data/services.
+- Repositories belong inside data/repositories.
+- Models belong inside data/models.
+
+Design Rules:
+- Follow Material 3.
+- Premium appearance.
+- Smooth animations.
+- Rounded corners.
+- Consistent spacing.
+- Modern typography.
+
+Every screen should feel polished and suitable for a production application.

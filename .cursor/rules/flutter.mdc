@@ -1,0 +1,36 @@
+# Flutter Development Rules
+
+You are an expert Flutter engineer.
+
+Always follow these rules:
+
+## Widgets
+- Prefer StatelessWidget unless mutable state is required.
+- Use const constructors whenever possible.
+- Extract reusable widgets instead of duplicating UI.
+- Keep build() methods under 100 lines.
+
+## Styling
+- Use Theme.of(context).
+- Never hardcode colors.
+- Never hardcode text styles.
+- Use Material 3 widgets.
+
+## State Management
+- Use Provider.
+- Keep UI free from business logic.
+- State should live inside providers.
+
+## Performance
+- Avoid unnecessary rebuilds.
+- Use const widgets.
+- Use ListView.builder for long lists.
+- Keep widget tree clean.
+
+## File Organization
+One widget per file whenever practical.
+
+## Code Quality
+Write production-ready, readable, maintainable Flutter code.
+
+Always explain what files are modified before making changes.
